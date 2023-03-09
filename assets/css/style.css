@@ -14,3 +14,7 @@ img[src="./assets/img/argPLogo.png"]{
     width: 6vw;
     background-color: black;
 }
+
+.banner{
+    background-image: src;
+}
