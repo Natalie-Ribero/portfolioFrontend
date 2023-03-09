@@ -2,19 +2,47 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    /* border: 1px solid rgb(217, 255, 0); */
 }
 
-body{
+body {
     background-color: rgb(0, 0, 0);
-    color:white;
+    color: white;
 }
 
-img[src="./assets/img/argPLogo.png"]{
+img[src="./assets/img/argPLogo.png"] {
     width: 6vw;
     background-color: black;
 }
 
-.banner{
-    background-image: src;
+.acercaDe,
+.experiencia,
+.educacion,
+.hardAndSoftKills,
+.proyectos {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    height: 50vh;
+    width: 98vw;
+    background-image: url(../img/banner.jpg);
+    background-size: contain;
+}
+
+.acercaDe img {
+    width: 20vw;
+    border-radius: 50%;
+}
+
+.acercaDe {
+    flex-direction: row;
+}
+
+.textAcercaDe {
+    flex-direction: column !important;
+    align-items: center  !important;
 }
